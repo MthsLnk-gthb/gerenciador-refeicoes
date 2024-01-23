@@ -1,0 +1,53 @@
+:root{
+    --vermelho: #C1121F;
+    --bordo: #780000; 
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    margin: 15dvh auto;
+}
+
+.sign-content{
+    display: flex;
+    gap: 5px;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    max-width: 380px;
+    height: 350px;
+    background: none;
+    padding: 20px;
+    border-radius: 15px;
+    text-align: justify;
+}
+
+.sign-content>h1{
+    font-size: 2rem;
+    color: var(--vermelho);
+}
+
+.sign-content>label{
+    font-size: 1.4rem;
+    font-weight: 600;
+    color: var(--vermelho);
+    margin-top: 5dvh;
+    margin-bottom: 1dvh;
+}
+
+.sign-content>input{
+    outline: none;
+    border: none;
+    border-bottom: 1px solid var(--vermelho);
+    background: none;
+    width: 250px;
+    text-align: center;
+    font-size: 1.1rem;
+}
+
+.error-msg{
+    color: var(--vermelho);
+    font-size: 1.8rem;
+}

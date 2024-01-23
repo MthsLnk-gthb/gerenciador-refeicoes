@@ -1,0 +1,17 @@
+.signup-content{
+    display: flex;
+    gap: 5px;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    max-width: 380px;
+    height: 420px;
+    box-shadow: 0 5px 5px 0 #151515a1;
+    background-color: #F4F1DE;
+    padding: 20px;
+    border-radius: 15px;
+    position: relative;
+    text-align: justify;
+}
+

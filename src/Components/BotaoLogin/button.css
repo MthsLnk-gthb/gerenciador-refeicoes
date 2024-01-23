@@ -1,0 +1,14 @@
+.botao-login{
+    padding: 16px 20px;
+    outline: none;
+    border: none;
+    border-radius: 15px;
+    width: 90%;
+    cursor: pointer;
+    background-color: #780000;
+    color: #ffffff;
+    font-weight: 600;
+    font-size: 1.2rem;
+    margin-top: 2dvh;
+    max-width: 350px;
+}
