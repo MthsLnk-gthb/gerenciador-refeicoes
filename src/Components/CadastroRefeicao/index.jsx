@@ -44,7 +44,7 @@ const CadastroRefeicao = ({ onAdicionarRefeicao }) => {
       <section className="campo-do-form">
         <label>Nome da Refeição:</label>
         <input
-        maxLength="40"
+        maxLength="45"
           type="text"
           name="nomeRefeicao"
           value={novaRefeicao.nomeRefeicao}
