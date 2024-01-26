@@ -1,0 +1,57 @@
+:root{
+    --vermelho: #C1121F;
+    --bordo: #780000; 
+    --verde: #00b400;
+}
+
+.form-cadastro-refeicao{
+    background-color: #faeea83f;
+    box-shadow: 0px 0px 5px 2px #202020a9;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.campo-do-form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+}
+
+.campo-do-form>label{
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: var(--bordo);
+}
+
+.campo-do-form>input{
+    width: 350px;
+    max-width: 80dvw;
+    height: 30px;
+    border-radius: 10px;
+    border: 1px solid var(--bordo);
+    font-size: 1.1rem;
+    text-align: center;
+}
+
+.campo-do-form>input[type="number"]{
+    width: 75px;
+}
+
+.btn-adicionar-refeicao{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 60%;
+    height: 45px;
+    font-size: 1.2rem;
+    font-weight: 600;
+    border: 2px solid var(--bordo);
+    border-radius: 10px;
+    color: #fff;
+    background-color: var(--verde);
+}

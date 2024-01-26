@@ -19,7 +19,7 @@ const RoutesApp = () => {
       <Fragment>
         <Routes>
           <Route exact path="/home" element={<Private Item={Home} />} />
-          <Route path="/" element={<SignIn />} />
+          <Route path="/" element={<ContainerRefeicao />} />
           <Route exact path="/signup" element={<SignUp />} />
           <Route exact path="/refeicoes" element={<ContainerRefeicao />} />
           <Route path="*" element={<SignIn />} />
