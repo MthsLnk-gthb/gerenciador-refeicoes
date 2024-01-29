@@ -4,8 +4,8 @@ import "./style.css";
 const CardRefeicao = ({ refeicao }) => {
   return (
     <>
-    <h2>{refeicao.nomeRefeicao}</h2>
     <article className="card-refeicao">
+    <h2>{refeicao.nomeRefeicao}</h2>
       <ul className="infos-nutricionais">
         <li>
           <label>Kcal:</label>

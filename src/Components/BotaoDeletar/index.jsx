@@ -1,3 +1,5 @@
+import './style.css'
+
 const BotaoDeletar = ({handleDeletarRefeicao, index}) => {
   return (
     <>

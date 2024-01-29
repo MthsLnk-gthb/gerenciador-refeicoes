@@ -1,5 +1,5 @@
 import { useState } from "react";
-//import "./style.css";
+import "./style.css";
 import CadastroRefeicao from "../../Components/CadastroRefeicao";
 import CardRefeicao from "../../Components/CardRefeicao";
 import useAuth from "../../hooks/useAuth";
@@ -49,7 +49,7 @@ const ContainerRefeicao = () => {
       <main>
         <CadastroRefeicao onAdicionarRefeicao={adicionarRefeicao} />
         {refeicoes.map((item, index) => (
-          <section key={index}>
+          <section key={index} className="flex-da-refeicao">
             <CardRefeicao refeicao={item} />
             <BotaoDeletar handleDeletarRefeicao={()=> handleDeletarRefeicao(index)} />
           </section>

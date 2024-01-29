@@ -1,19 +1,17 @@
-.cadastro-refeicao{
-    display: grid;
-}
-
-
-
-
-
-
 .card-refeicao {
   background-color: #780000;
   width: 400px;
   max-width: 80dvw;
-  height: 70px;
+  height: 100px;
   text-align: center;
   margin: 5vh auto;
+  overflow: hidden;
+}
+
+.card-refeicao>h2{
+  color: #fadb9d;
+  text-decoration: underline;
+  font-size: 1.2rem;
 }
 
 .infos-nutricionais{
